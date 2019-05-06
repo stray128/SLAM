@@ -460,7 +460,7 @@ def print_result(N, num_landmarks, result):
 # slam - retains entire path and all landmarks
 #
 
-############## ENTER YOUR CODE BELOW HERE ###################
+
 
 def slam(data, N, num_landmarks, motion_noise, measurement_noise):
     #
@@ -520,11 +520,9 @@ def slam(data, N, num_landmarks, motion_noise, measurement_noise):
     mu = matrix(mu)
     return mu # Make sure you return mu for grading!
         
-############### ENTER YOUR CODE ABOVE HERE ###################
 
-# ------------------------------------------------------------------------
-# ------------------------------------------------------------------------
-# ------------------------------------------------------------------------
+
+
 #
 # Main routines
 #
@@ -627,4 +625,4 @@ print_result(20, 5, result)
 
 result = slam(test_data2, 20, 5, 2.0, 2.0)
 print_result(20, 5, result)
-#print(result
+#print(result)
