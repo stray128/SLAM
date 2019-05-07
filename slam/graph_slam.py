@@ -463,11 +463,8 @@ def print_result(N, num_landmarks, result):
 
 
 def slam(data, N, num_landmarks, motion_noise, measurement_noise):
-    #
-    #
-    # Add your code here!
-    #
-    #
+   
+   
     total = N + num_landmarks
     mtc = motion_noise  # motion confidence
     msc = measurement_noise  # measurement confidence
@@ -518,8 +515,7 @@ def slam(data, N, num_landmarks, motion_noise, measurement_noise):
         mu.append(mux.value[i])
         mu.append(muy.value[i])
     mu = matrix(mu)
-    return mu # Make sure you return mu for grading!
-        
+    return mu         
 
 
 
